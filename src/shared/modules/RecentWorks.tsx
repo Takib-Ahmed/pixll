@@ -11,7 +11,7 @@ import Recentsblur3 from "@/assets/Bgs/works/Recentblur3";
 import RecentWorkCard from "../components/RecentWorkcard";
 import IntroCard from "../components/IntroCard";
 
-export default function Recents() {
+export default function RecentWorks() {
   const RecentWorkDetails = {
     title: "Our Most Recent Works",
     subtitle: "Lorem ipsum dolor sit amet consectetur. Eget at at nunc lorem.",

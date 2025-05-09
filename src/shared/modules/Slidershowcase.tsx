@@ -6,7 +6,7 @@ import Landing from "@/assets/images/samples/Landing.png";
 import Darkshade from "@/assets/Bgs/Showcase/DarkShade";
 import WhiteShade from "@/assets/Bgs/Showcase/WhiteShade";
 import ShowcaseSlider from "../components/ShowcaseSlider";
-export default function Showcase() {
+export default function Slidershowcase() {
   const Samples = [
     {
       id: 1,
