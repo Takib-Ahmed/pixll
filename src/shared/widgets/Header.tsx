@@ -27,7 +27,7 @@ export default function Header() {
     ],
     Menuicn,
   };
-  const [Isopen,setIsopen] =  useState(true)
+  const [Isopen,setIsopen] =  useState(false)
   return (
     <div className=" flex  w-full justify-center    ">
       <div
