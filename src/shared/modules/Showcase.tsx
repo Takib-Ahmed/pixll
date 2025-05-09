@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import Dashboard from "@/assets/images/services/Dashboard.png";
-import Mobileview from "@/assets/images/services/Mobile View.png";
-import Landing from "@/assets/images/services/Landing.png";
+import Dashboard from "@/assets/images/samples/Dashboard.png";
+import Mobileview from "@/assets/images/samples/Mobile View.png";
+import Landing from "@/assets/images/samples/Landing.png";
 import Darkshade from "@/assets/Bgs/Showcase/DarkShade";
 import WhiteShade from "@/assets/Bgs/Showcase/WhiteShade";
 import ShowcaseSlider from "../components/ShowcaseSlider";
