@@ -76,12 +76,12 @@ npm run dev
 ## 👨‍💻 Developer's Reflection
 
 The UI design was unique and visually expressive, clearly reflecting the company and product identity. It was both enjoyable and insightful to implement the design in code.
----
+
 ### Responsiveness 🔃
 Responsiveness was a bit challenging due to the tight deadline. I had to use multiple custom breakpoints to ensure proper layout across devices. With more time, I could have optimized the responsiveness using a cleaner and more scalable approach.
----
+
 ### Challenges 👩‍💻 
 One specific challenge was recreating the blur overlay effect on the service cards. Despite using the same overlay and trying several methods, I couldn’t fully replicate the Figma design. I decided to leave it in the best possible state given the time constraints.
----
+
 ### 🔄 Overall Opinion 
 Overall, this task was a valuable experience that helped me explore advanced layout handling and visual fidelity in frontend development.
