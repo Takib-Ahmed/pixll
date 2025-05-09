@@ -33,7 +33,7 @@ export default function Header() {
       <div
         className={` bg-translucent-black z-50   flex gap-[8px]  p-[16px] sm:p-[24px] 
        w-[90%]
-      min-[1200px]:w-[1140px]   transition-all duration-300 ease-in overflow-hidden  h-[6%]  font-DMSans leading-[150%] border-[1px] border-translucent-white   fixed  top-[32px]
+      min-[1200px]:w-[1140px]   transition-all duration-300 ease-in overflow-hidden  h-[6%]  font-DMSans leading-[150%] border-[1px] border-white   fixed  top-[32px]
        ${Isopen ?' px-5 rounded-[50px]  backdrop-blur-[30px]  h-fit  flex-col  items-start justify-start ':" rounded-[80px] h-[6%] min-[375px]:h-[60px] min-[555px]:h-[70px] sm:h-[100px] backdrop-blur-[30px] items-center justify-between  "}
        `}
       >

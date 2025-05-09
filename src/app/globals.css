@@ -3,7 +3,7 @@
 @import '../styles/Sections.css';
 @import '../styles/Graidents.css';
 @import '../styles/Slider.css';
-@import '../styles/Breakpoints.css';
+@import '../styles/Configs.css';
 
 :root {
   --background: #0a0a0a;
