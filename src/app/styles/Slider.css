@@ -1,0 +1,15 @@
+
+
+.mySwiper .swiper-slide {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.mySwiper .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.1) !important;
+  z-index: 999 !important;
+}
+.mySwiper {
+  overflow: visible !important;
+}
+
+

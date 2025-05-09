@@ -1,0 +1,32 @@
+import * as React from "react";
+const Workbottmbg = (props) => (
+  <svg
+    width={555}
+    height={136}
+    viewBox="0 0 555 136"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <rect
+      x={0.958008}
+      width={554}
+      height={136}
+      fill="url(#paint0_linear_1_762)"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_1_762"
+        x1={277.958}
+        y1={87}
+        x2={277.958}
+        y2={11.5}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#0A0A0A" />
+        <stop offset={1} stopColor="#0A0A0A" stopOpacity={0} />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+export default Workbottmbg;

@@ -1,0 +1,25 @@
+.Gradient-Button {
+  background: linear-gradient(96.28deg, #73bffa 2.11%, #3c97f5 113.83%);
+  border-radius: 48px;
+}
+.text-graident {
+  background: radial-gradient(
+      29.86% 95.67% at 48.51% 59.31%,
+      #ffffff 47.7%,
+      rgba(255, 255, 255, 0.5) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: transparent;
+  background-clip: text;
+}
+
+.Number-Graident {
+  background: linear-gradient(
+    114.35deg,
+    #3c97f5 5.43%,
+    #73bffa 43.08%,
+    #93d1fd 92.31%
+  );
+  color: transparent;
+  background-clip: text;
+}

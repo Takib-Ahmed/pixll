@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/shared/modules/Showcase.tsx", "src/assets/Bgs/FAQS/FeaturedBlur.jsx", "src/assets/Bgs/Services/Blueblur.jsx", "src/assets/Bgs/Services/Bluestars.jsx", "src/assets/Bgs/Services/Greenblur.jsx", "src/assets/Bgs/Services/Pinkblur.jsx", "src/assets/Bgs/Services/Purpleblur.jsx", "src/assets/Bgs/Services/Purplestars.jsx", "src/assets/Bgs/works/RecentBlur2.jsx", "src/assets/Bgs/works/RecentBlur.jsx", "src/assets/Bgs/works/Recentblur3.jsx", "src/assets/Bgs/works/Recentsbg.jsx", "src/assets/Bgs/works/Recentsblur4.jsx", "src/assets/Bgs/works/worksBg.jsx", "src/assets/Bgs/Showcase/DarkShade.jsx", "src/assets/Bgs/Showcase/WhiteShade.jsx", "src/assets/icons/AIO.jsx", "src/assets/icons/Crossbox.jsx", "src/assets/icons/Infinity.jsx", "src/assets/icons/Layers.jsx", "src/assets/icons/Linkicn.jsx", "src/assets/icons/Menuicn.jsx", "src/assets/partners/Apex.jsx", "src/assets/partners/Duet.jsx", "src/assets/partners/Fixmyphone.jsx", "src/assets/partners/LindHolmes.jsx", "src/assets/partners/Verdant.jsx"],
+  "exclude": ["node_modules"]
+}

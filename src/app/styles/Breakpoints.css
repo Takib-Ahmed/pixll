@@ -1,0 +1,59 @@
+
+@media (max-width: 1200px) {
+  .ServiceCardContainer {
+    transform: translate(0) !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .Showcase-Slider{
+  .Slide {
+    width: 30vw !important;
+    height: 20vw !important;
+  }
+  }
+
+}
+@media (max-width: 1000px) {
+  .mySwiper {
+    transform: translateX(-5%);
+  }
+.Showcase-Slider{
+  .Slide {
+    width: 40vw !important;
+    height: 25vw !important;
+  }
+}
+
+}
+@media (max-width: 770px) {
+  .mySwiper {
+    transform: translateX(-10%);
+  }
+.Showcase-Slider{
+  .Slide {
+    width: 40vw !important;
+    height: 25vw !important;
+  }
+}
+
+}
+
+@media (max-width: 550px) {
+  .mySwiper {
+    transform: translateX(-20%);
+  }
+  .Showcase-Slider{
+  .Slide {
+    width: 50vw !important;
+    height: 30vw !important;
+  }
+  }
+
+}
+
+@media (max-width: 450px) {
+  .mySwiper {
+    transform: translateX(-20%);
+  }
+}

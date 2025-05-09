@@ -1,0 +1,52 @@
+
+.Herocontainer {
+  background: url(/BgCovers/Herobg.svg) no-repeat top;
+  background-size: cover;
+}
+.ServiceContainer {
+  background: url(/BgCovers/Servicesbg.svg) no-repeat bottom;
+  background-size: cover;
+}
+
+.ServiceCardContainer {
+.Inner-container  {
+  border: 1.4px solid;
+  background-size: cover;
+  background-color: #0b0b0f;
+  background: linear-gradient(to bottom right, #0b0b0f, #121217);
+
+    .service-Card {
+    background: url(/BgCovers/Stairs.svg) !important;
+    background-size: cover;
+  }
+}
+}
+.circulerBG {
+  background: url(/BgCovers/CirculerBg.svg) center no-repeat;
+  background-size: contain;
+}
+
+
+
+footer {
+  background: url(/BgCovers/Footerbg.svg) no-repeat top;
+  background-size: cover;
+  .footer-text {
+  background: radial-gradient(
+      20.45% 109.09% at 25.34% 68.18%,
+      #93d1fd 49.03%,
+      rgba(147, 209, 253, 0.5) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: transparent;
+  background-clip: text;
+}
+.footeremail {
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5%;
+}
+}
+
