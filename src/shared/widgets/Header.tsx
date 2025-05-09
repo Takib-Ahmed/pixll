@@ -27,7 +27,7 @@ export default function Header() {
     ],
     Menuicn,
   };
-  const [Isopen,setIsopen] =  useState(true)
+  const [Isopen,setIsopen] =  useState(false)
   return (
     <div className=" flex  w-full justify-center    ">
       <div
@@ -60,9 +60,9 @@ export default function Header() {
             </li>
           ))}
            <li onClick={()=>{ setIsopen((prev)=>!prev)}} className={` sm:hidden ${Isopen && 'absolute right-5 top-8'}   `}>
-            <Link href="#" className=" text-[16px]  ">
+            <div  className=" text-[16px]  ">
               <Navdetails.Menuicn className=" w-[24px] min-[375px]:w-[28px] sm:w-[32px]" />
-            </Link>
+            </div>
           </li>
         </ul>
         

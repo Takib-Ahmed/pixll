@@ -14,10 +14,10 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <Link
       href={href}
-      className={` Gradient-Button  flex items-center justify-center p-2.5 px-5 max-[400px]:py-2 max-[400px]:px-4  min-[375px]:p-3.5 min-[375px]:px-7   sm:py-[20px] sm:px-[32px] gap-[8px]    
+      className={` Gradient-Button  flex items-center justify-center p-2.5 px-5 max-[400px]:py-2 max-[400px]:px-4  min-[375px]:p-3.5 min-[375px]:px-7   sm:py-[20px] sm:px-[32px]   
 text-sm min-[375px]:text-[15px]  sm:text-[20px]  sm:h-[64px] text-nowrap  leading-[120%] hover: ${className}  `}
     >
-     <span className=" text-white">
+     <span className=" text-nowrap  text-now text-white flex items-center justify-center  gap-[8px]  ">
        {children}
      </span>
     </Link>
