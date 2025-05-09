@@ -35,7 +35,7 @@ npm run dev
     
     Used directly in raw CSS as background images.
     
-- Logo
+- `/public/logos` – Logo files used throughout the site
 
 ---
 
