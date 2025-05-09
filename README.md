@@ -1,38 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📘 Pixll – Internship Test Project
 
-## Getting Started
+This is a landing page project for **Pixll**, built using: **Next.js, TypeScript, Tailwind CSS**
 
-First, run the development server:
+---
+
+## ▶️ Clone & Run
+
+To set up this project locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/Takib-Ahmed/pixll.git
+
+# Navigate into the project folder
+cd pixll
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Open http://localhost:3000 in your browser to see the project in action.
+> 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 File & Folder Structure
 
-## Learn More
+### `/public`
 
-To learn more about Next.js, take a look at the following resources:
+- `/public/BGcovers` – Cover images and background graphics
+    
+    Used directly in raw CSS as background images.
+    
+- Logo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### `/app/assets`
 
-## Deploy on Vercel
+- `/app/assets/icons` – SVG icon components
+- `/app/assets/bgElements` – Background shapes and elements (section-wise)
+- `/app/assets/partners` – Logos of partner companies or brands
+- `/app/assets/showcase` – Images used in the Showcase section
+- `/app/assets/works` – Images for the Works/Projects section
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> All visual assets are organized per section for clarity and maintainability.
+> 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# testing
-# pixll
+---
+
+### `/app/shared`
+
+- `/app/shared/components` – Reusable UI components used across the site
+- `/app/shared/modules` – Components structured for each landing page section
+- `/app/shared/widgets` – Layout elements like Header and Footer
+
+---
+
+### `/styles`
+
+- `/styles/configs.css` – Custom Tailwind configurations including:
+    - Color palette
+    - Responsive breakpoints
+    - Utility tokens (e.g., spacing, font sizes)
+- `/styles/breakpoints.css` – Custom media query utilities
+- `/styles/gradient.css` – Gradient styles used in backgrounds
+- `/styles/slider.css` – Styles related to sliders/carousels
+- `/styles/sections.css` – Section-specific overrides and additional styling
