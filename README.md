@@ -45,9 +45,9 @@ npm run dev
 - `/app/assets/bgElements` – Background shapes and elements (section-wise)
 - `/app/assets/partners` – Logos of partner companies or brands
 - `/app/assets/showcase` – Images used in the Showcase section
-- `/app/assets/works` – Images for the Works/Projects section
+- `/app/assets/images` – Images for the Works/Projects section
 - - `/app/assets/images/works/`  - Images for the Works/Projects section
-- `/app/assets/images/samples/`- samples of the Works
+- -`/app/assets/images/samples/`- samples of the Works
 
 > All visual assets are organized per section for clarity and maintainability.
 > 
