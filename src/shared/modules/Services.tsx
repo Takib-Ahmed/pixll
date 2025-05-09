@@ -8,8 +8,6 @@ import AIOicn from "@/assets/icons/AIO";
 import Crossbox from "@/assets/icons/Crossbox";
 import Infinity from "@/assets/icons/Infinity";
 import Layer from "@/assets/icons/Layers";
-import Linkicn from "@/assets/icons/Linkicn";
-import Link from "next/link";
 import React from "react";
 import ServiceCard from "../components/ServiceCard";
 

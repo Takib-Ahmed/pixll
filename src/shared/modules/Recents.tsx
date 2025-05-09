@@ -1,4 +1,3 @@
-import Recentbg from "@/assets/Bgs/works/Recentsbg";
 import React from "react";
 import AlcoholTracker from "@/assets/images/works/Alcohol Tracker.png";
 import Rely from "@/assets/images/works/Rely.png";
