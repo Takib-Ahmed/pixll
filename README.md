@@ -1,4 +1,4 @@
-# 📘 Pixll – Internship Test Project
+# 📘 Pixll – Agency Landing Page
 
 This is a landing page project for **Pixll**, built using: **Next.js, TypeScript, Tailwind CSS**
 
